@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.example.pizzeriadiegovega.Controllers.App2Controller">
+   <children>
+      <Label layoutX="45.0" layoutY="14.0" prefHeight="78.0" prefWidth="260.0" text="PIZZERIA DIEGO">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="75.0" prefHeight="18.0" prefWidth="205.0" text="Ver y editar el menú" />
+       <ScrollPane fx:id="contenedor" layoutX="13.0" layoutY="100.0" prefHeight="485.0" prefWidth="322.0">
+           <VBox fx:id="vbox"/>
+       </ScrollPane>
+   </children>
+</AnchorPane>
